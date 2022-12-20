@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: var(--primary-color-2);
+    height: 40px;
+    padding: 0 84px;
+    display: flex;
+    align-items: center;
+    color: var(--black-color);
+    font-size: 1.4rem;
+
+    span {
+        margin-left: 16px;
+    }
+}
+

@@ -1,0 +1,15 @@
+.bg-white {
+    background-color: var(--white-color);
+}
+
+.bg-white__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--header-height);
+    line-height: var(--header-height);
+}
+
+.bg-white__body {
+    padding-bottom: 10px;
+}
