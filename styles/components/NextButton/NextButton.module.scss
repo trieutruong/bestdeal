@@ -1,0 +1,36 @@
+.next-btn::before,
+.prev-btn::before {
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 1;
+    opacity: 0.75;
+    color: #ccc;
+    -webkit-font-smoothing: antialiased;
+}
+
+.next-btn {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    &::before {
+        font-family: 'slick';
+        font-size: 50px;
+        line-height: 1;
+        opacity: 0.75;
+        color: #ccc;
+        -webkit-font-smoothing: antialiased;
+        content: '→';
+    }
+}

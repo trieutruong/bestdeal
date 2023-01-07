@@ -1,0 +1,44 @@
+.wrapper {
+}
+
+.aboutus-wrapper {
+  margin-top: 24px;
+  display: flex;
+}
+
+.aboutus-left {
+  
+}
+
+.title {
+  color: var(--black-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.list {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  padding: 10px 16px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-bottom: 1px solid #d1d1d1;
+
+  &.active {
+    font-weight: 700;
+    background: #e5e4e4;
+  }
+}
+
+.aboutus-right {
+}
+
+.content {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+}

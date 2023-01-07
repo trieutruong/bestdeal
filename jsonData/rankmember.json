@@ -1,0 +1,101 @@
+[
+  {
+    "rankMemberPolicy": [
+      {
+        "img": "",
+        "title": "THAM GIA MUA HÀNG",
+        "description": "Nhận 1 bestdealcoin cho mỗi 1000VNĐ khi mua hàng"
+      },
+      {
+        "img": "",
+        "title": "ĐÁNH GIÁ SẢN PHẨM",
+        "description": "Nhận 1000 bestcoin cho mỗi đánh giá sản phẩm đã mua"
+      },
+      {
+        "img": "",
+        "title": "GIỚI THIỆU BẠN BÈ",
+        "description": "Nhận 20000 bestcoin cho mỗi đơn hàng giới thiệu thành công"
+      }
+    ],
+    "rankMemberBenefitsTitle": {
+      "title": "Quyền lợi thành viên",
+      "silver": "SILVER",
+      "gold": "GOLD",
+      "diamond": "DIAMOND"
+    },
+    "rankMemberBenefits": [
+      {
+        "title": "Đổi quà miễn phí với bestdealcoin",
+        "silver": true,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Nhận được nhiều hơn bestcoin khi mua hàng",
+        "silver": "1%",
+        "gold": "1%",
+        "diamond": true
+      },
+      {
+        "title": "Hỗ trợ 50% phí giao hàng",
+        "silver": true,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Quà tặng đặc biệt khi bạn mua trong tháng sinh nhật",
+        "silver": true,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Giảm giá đặc biệt trên một số mặt hàng",
+        "silver": true,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Quà tặng tri ân khi đạt tiêu chuẩn thành viên",
+        "silver": false,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Giảm giá đặc biệt tất cả mặt hàng (2 lần / năm)",
+        "silver": false,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Được ưu tiên đóng hàng đầu tiên sau khi đặt hàng",
+        "silver": false,
+        "gold": true,
+        "diamond": true
+      },
+      {
+        "title": "Được ưu tiên đổi tất cả các hàng hot nhất",
+        "silver": false,
+        "gold": "1 lần",
+        "diamond": "1 lần"
+      },
+      {
+        "title": "Miễn phí giao hàng cho tất cả đơn hàng trong năm",
+        "silver": false,
+        "gold": false,
+        "diamond": true
+      },
+      {
+        "title": "Quà tặng VIP cho mỗi đơn hàng trên 10,000,000 VND",
+        "silver": false,
+        "gold": false,
+        "diamond": true
+      },
+      {
+        "title": "Trải nghiệm miễn phí sản phẩm và dịch vụ mới nhất từ BestDeal",
+        "silver": false,
+        "gold": false,
+        "diamond": true
+      }
+    ]
+  }
+]

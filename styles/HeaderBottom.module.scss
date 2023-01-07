@@ -1,21 +1,49 @@
 .header__nav {
     background-color: var(--primary-color-2);
-    padding: 0 84px;
 }
 
 .header__nav-wrap {
     display: flex;
-    position: relative;
 }
 
 .header__nav-menu {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     background-color: #fff700cf;
+    font-size: 1.3rem;
     width: 220px;
-    padding: 8px 24px;
     color: var(--black-color);
+    position: relative;
+    
+    &:hover {
+        .category-bottom {
+            display: block;
+        }
+    }
+
+    .header__nav-menu-dropdown {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger {
+        padding: 0 8px;
+        font-size: 1rem;
+    }
+
+    span {
+        padding: 0 8px;
+        font-weight: 500;
+    }
+}
+
+.header__nav-menu span {
+    line-height: 100%;
+}
+
+.icon {
+    transform: scale(1.6);
 }
 
 .header__nav-list {
@@ -41,4 +69,10 @@
 
 .header__nav-list-item-link:hover {
     background-color: #fff700cf;
+}
+
+@media (max-width: 1023px) {
+    .header__nav {
+        display: none;
+    }
 }

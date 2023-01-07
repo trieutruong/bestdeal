@@ -1,0 +1,257 @@
+/* footer */
+.footer {
+  overflow: hidden;
+  background-color: var(--primary-color-2);
+}
+
+.footer-content {
+  padding: 40px 0 14px 0;
+}
+
+.flud-container {
+  padding-top: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content__policy {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content__policy-title {
+  margin: 0;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.footer-content__policy-list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content__policy-item-link {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  line-height: 2rem;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.footer-content__policy-item-link:hover {
+  color: var(--primary-color-3);
+  transition: 0.3s;
+}
+
+.footer-content__download-apps {
+  display: flex;
+}
+
+.download-apps__qr-code-img {
+  width: 60px;
+  object-fit: contain;
+}
+
+.download-apps__box {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.download-apps__box-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.download-apps__box-link:hover {
+  opacity: 0.65;
+  transition: 0.2s;
+  color: var(--primary-color-3);
+}
+
+.download-apps__icon {
+  transform: scale(150%);
+  width: 16px;
+  display: inline-block;
+}
+
+.download-apps-name {
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.footer-top {
+  width: 100%;
+  margin: 0 0 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top-brand-info__content {
+  margin-top: 8px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.footer-content__download-app-license {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content__img {
+  width: 140px;
+}
+
+.footer-bottom {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid var(--primary-color);
+  padding-top: 24px;
+  justify-content: space-between;
+}
+
+.footer-bottom-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom-info__title {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.footer-bottom-info__link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  padding: 2px 0;
+  margin-top: 4px;
+  transition: all linear 0.2s;
+
+  &:hover {
+    color: var(--primary-color-3);
+  }
+}
+
+.footer-bottom-socials {
+}
+
+.footer-bottom__title {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 14px 0;
+}
+
+.footer-bottom__box-icon {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 4px;
+}
+
+.footer-bottom__box-icon-link {
+  color: var(--primary-color);
+  padding: 4px 4px 0px 4px;
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.footer-bottom__box-icon-link:hover {
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+.footer-bottom__icon {
+  font-size: 1.6rem;
+  transform: scale(150%);
+}
+
+.footer-bottom__img {
+  height: 24px;
+  margin-right: 8px;
+}
+
+.footer-bottom__img:hover {
+  opacity: 0.65;
+  transition: 0.2s;
+}
+
+.footer-bottom-register-box {
+}
+
+.footer-bottom__sub-title {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.footer-bottom__registration-wrap {
+  position: relative;
+  margin-top: 8px;
+}
+
+.footer-bottom-register__input {
+  width: 100%;
+  height: 34px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 0 16px;
+  font-size: 1.2rem;
+}
+
+.footer-bottom__btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary-color-2);
+  border: none;
+  height: 30px;
+  padding: 8px 16px 8px 32px;
+  margin-right: 1px;
+  border-radius: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer-bottom__btn:hover {
+  opacity: 0.65;
+  transition: 0.2s;
+}
+
+.footer-bottom__btn::before {
+  content: "";
+  position: absolute;
+  background-color: var(--white-color);
+  height: 30px;
+  width: 16px;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-bottom__icon {
+  font-size: 1.8rem;
+  transform: scale(150%);
+}
+
+@media (max-width: 990px) {
+  .footer {
+    display: none;
+  }
+}
+
+@media (max-width: 1100x) {
+}

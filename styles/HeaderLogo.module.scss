@@ -1,3 +1,19 @@
 .header-logo {
-    width: 200px;
+    margin-right: 50px;
+}
+
+.logo {
+    width: 100%;
+}
+
+@media (max-width: 1023px) {
+    .logo {
+        width: 100%;
+    }
+}
+
+@media (max-width: 739px) {
+    .header-logo {
+        display: none;
+    }
 }

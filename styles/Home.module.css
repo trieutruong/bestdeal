@@ -1,8 +1,23 @@
-.wrapper {
-    
+.wrapper {}
+
+.home__content {
+    height: 400px;
 }
 
-.home__wrap {
-    height: 410px;
+.banner {
+    margin-top: 40px;
 }
 
+.banner-link {
+    display: block;
+}
+
+.img-banner {
+    width: 100%;
+}
+
+@media (max-width: 1139px) {
+    .banner {
+        display: none;
+    }
+}

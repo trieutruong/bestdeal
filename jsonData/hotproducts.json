@@ -1,0 +1,73 @@
+[
+  {
+    "name": "Máy mài góc BOSCH may-mai-goc-bosch-gws-060-100mm-1563357100",
+    "discount": "20",
+    "oldPrice": 600000,
+    "price": 450000,
+    "link": "/may-mai-goc-bosch-gws-060-100mm-1563357100",
+    "image": "/img/products/may-mai-goc-bosch-gws-060-100mm-1563357100.jpg"
+  },
+  {
+    "name": "Vòi chậu rửa mặt INAX LFV-1101S",
+    "oldPrice": 500000,
+    "price": 450000,
+    "link": "/Voi-chau-rua-mat-INAX-LFV-1101S-1/",
+    "image": "/img/products/Voi-chau-rua-mat-INAX-LFV-1101S-1.jpg"
+  },
+  {
+    "name": "Bộ vòi xịt vệ sinh INAX",
+    "oldPrice": 225000,
+    "price": 215000,
+    "link": "/bo-voi-xit-ve-sinh-inax",
+    "image": "/img/products/bo-voi-xit-ve-sinh-inax.jpg"
+  },
+  {
+    "name": "Vòi rửa bát cắm tường nước nóng lạnh ETO",
+    "oldPrice": 950000,
+    "price": 850000,
+    "link": "/voi-rua-bat-cam-tuong-nong-lanh/",
+    "image": "/img/products/voi-rua-bat-cam-tuong-nong-lanh.jpg"
+  },
+  {
+    "name": "Khóa treo đồng bấm ELIS 60mm",
+    "oldPrice": 265000,
+    "price": 255000,
+    "link": "/khoa-treo-elis-60mm/",
+    "image": "/img/products/khoa-treo-elis-60mm.jpg"
+  },
+  {
+    "name": "Bát sen cánh quạt",
+    "oldPrice": 165000,
+    "price": 150000,
+    "link": "/bat-sen-canh-quat/",
+    "image": "/img/products/bat-sen-canh-quat.jpg"
+  },
+  {
+    "name": "Vòi tưới cây - rửa xe Cmart",
+    "oldPrice": 135000,
+    "price": 125000,
+    "link": "/voi-tuoi-cay-rua-xe-cmart/",
+    "image": "/img/products/voi-tuoi-cay-rua-xe-cmart.jpg"
+  },
+  {
+    "name": "Bộ vòi sen tắm Eto đồng công nghệ Nhật Bản",
+    "oldPrice": 480000,
+    "price": 550000,
+    "link": "/bo-voi-sen-dong-eto/",
+    "image": "/img/products/bo-voi-sen.png"
+  },
+  {
+    "name": "Vòi rửa bát cắm tường không nóng lạnh ETO",
+    "oldPrice": 430000,
+    "price": 380000,
+    "link": "/voi-rua-bat-cam-tuong-khong-nong-lanh-can-cung-caesar/",
+    "image": "/img/products/voi-rua-bat-cam-tuong-khong-nong-lanh-can-cung-casae.jpg"
+  },
+  {
+    "name": "Khóa tay nắm tròn inox JungHwa Hàn Quốc",
+    "oldPrice": 295000,
+    "price": 280000,
+    "link": "/luoi-cat-gach-makita-100/",
+    "image": "/img/products/khoa-tay-nam-tron-inox-Junghwa.png"
+  }
+]

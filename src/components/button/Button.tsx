@@ -71,6 +71,7 @@ interface Props{
     text?: string
     primary?: any 
     outline?: any,
+    secondary?: any,
     rounded?: any
     small?: any
     large?: any 
@@ -90,6 +91,7 @@ const Button: React.FC<Props> = ({
     text,
     primary = false,
     outline = false,
+    secondary = false,
     rounded = false,
     small = false,
     large = false,
@@ -131,6 +133,7 @@ const Button: React.FC<Props> = ({
         [className]: className,
         primary,
         outline,
+        secondary,
         rounded,
         text,
         small,

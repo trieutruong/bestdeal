@@ -8,7 +8,7 @@ const cx = classNames.bind(styles)
 
 const Header = () => {
   return (
-    <div className={cx('wrapper')}>
+    <div className={cx('header-wrapper')}>
         <HeaderContact />
         <HeaderWithSearch />
         <HeaderBottom />

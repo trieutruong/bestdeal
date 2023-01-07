@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
 :root {
   --primary-color: #000;
   --primary-color-2: #ffdb00;
@@ -29,12 +31,13 @@ body {
   line-height: 1.15;
   color: var(--text-color);
   text-rendering: optimizeSpeed;
-  overflow-y: overlay;
+  /* overflow-y: overlay; */
 }
 
 body ::-webkit-scrollbar {
   width: 6px;
 }
+
 body ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 0 6px var(--primary-color-2);
@@ -48,21 +51,48 @@ body ::-webkit-scrollbar-track {
 button,
 input,
 [tabindex] {
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 a {
-    color: var(--text-color);
-    text-decoration: none;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
+  }
+}
+
+.app__container {
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  max-width: 100%;
+  display: block;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background: #f3f3f3;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1200px;
   }
 }
